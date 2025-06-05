@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Eject</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+        <script src="order.js"></script>
+    </head>
+    <body style="background-color: aliceblue;">
+        <div class="Name" id="Name" style="background-color: black;">
+            <b><i><h1>E J<sup> e c t</sup> <i class="fa-solid fa-dragon" style="color: red;"></i></h1></i></b>
+        </div>
+        <table  style="width: 80%; height:60%; margin-left: 100px;">
+            <tr style="background-color: white; font-weight: bold;">
+                <th>Car</th>
+                <th>Model year</th>
+                <th>Price</th>
+                <th>Order</th>
+                <th>Services</th>
+                <th>Total Prices</th>
+            </tr>
+            <tr class="or" id="or">
+                <td> Lamborghini Aventador Lp-480</td>
+                <td class="dt">2024</td>
+                <td>₱30,000,000</td>
+                <td><input type="checkbox" id="txtLA" onchange="Disp()"></td>
+                <td style="text-align: center;">Ceramic Wrapping(Add as protection) = ₱30,000 <input type="checkbox" name="chkboxSER" onchange="Disp()"></td>
+                <td>= <input type="text" id="txTotal" readonly placeholder="₱"></td>
+            </tr>
+            <tr class="or" id="or">
+                <td> Mercedes-Benz CLA 250 Coupe</td>
+                <td class="dt">2024</td>
+                <td>₱2,600,000</td>
+                <td><input type="checkbox" id="txtMB" onchange="Disp()"></td>
+                <td style="text-align: center;">Add or Upgrade Parts(Services only, Parts not include) = ₱30,000 <input type="checkbox" name="chkboxSER" onchange="Disp()"><br><br>
+                <input type="text" placeholder="What Parts?" style="text-align: center;  width: 9   0%; height: 30px;">
+                </td>
+            </tr>
+            <tr class="or" id="or">
+                <td> Ferrari LaFerrari</td>
+                <td class="dt">2015</td>
+                <td>₱270,000,000</td>
+                <td><input type="checkbox" id="txtFL" onchange="Disp()"></td>
+            </tr>
+            <tr class="or" id="or">
+                <td> Porsche Carrera Gt</td>
+                <td class="dt">2006</td>
+                <td>₱88,000,000</td>
+                <td><input type="checkbox" id="txtPC" onchange="Disp()"></td>
+            </tr>
+            <tr class="or" id="or">
+                <td> Audi r8</td>
+                <td class="dt">2010</td>
+                <td>₱7,200,000</td>
+                <td><input type="checkbox" id="txtAR" onchange="Disp()"></td>
+            </tr>
+            <tr class="or" id="or">
+                <td> Dodge Challenger Hellcat Redeye</td>
+                <td class="dt">2023</td>
+                <td>₱4,200,000</td>
+                <td><input type="checkbox" id="txtDC" onchange="Disp()"></td>
+            </tr>
+        </table>
+        <div><a href="shop.html"><button style="cursor: pointer; margin-top: 40px; margin-left: 100px; width: 160px; height: 50px; font-size: 15px; border-radius:50px; background-color: rgb(241, 11, 11); border: none; color: white; float: left; font-family: 'Courier New', Courier, monospace;">Back to Shop. <i class="fa-solid fa-store"></i></button></a></div>
+        <div><a href="payment.html"><button style="cursor: pointer; margin-left: 100px; width: 160px; height: 50px; font-size: 15px; border-radius:50px; background-color: rgb(241, 11, 11); border: none; color: white; float: left; font-family: 'Courier New', Courier, monospace; margin-top: 40px;">Check-Out. <i class="fa-solid fa-cart-plus"></i></button></a></div>
+    </div>
+    </body>
+</html>

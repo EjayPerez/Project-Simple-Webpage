@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: black;
+}
+div.NavTab{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+div.Name{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;    
+}
+div.Logo{
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: black;
+}
+div.Tabs{
+    color: white;
+    width: 22.5%;
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.BG{
+    float: left;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+div.content{
+    float: left;
+    width: 100%;
+    height: 40%;
+    background-color: black;
+}
+div.pic1{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+div.pic2{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+div#des1{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+}
+div#des2{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+}
+div.tspace{
+    float: left;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+}
+div.products{
+    background-color: black;
+    float: left;
+    margin: 50px;
+    width: 26%;
+    height: 25%;
+}
+div.pic{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+div.des{
+    background-color: black;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+div.OHbutton{
+    float: left;
+    width: 100%;
+    margin-left: 80%;
+}
+.b1-button{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}
+.or{
+    background-color: white;
+ 
+ }
+ .dt{
+     text-align: center;
+ }
+ div.sides{
+    width: 25%;
+    height: 50%;
+    background-color: black;
+    float: left;
+ }
+ div.infopic{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    float: left;
+ }
